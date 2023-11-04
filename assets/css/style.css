@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Roboto;
+}
+.ma-nav {
+    background-color: rgba(255, 255, 255, 0.90) !important;
+    padding: 0px 62px 0px 62px;
+    height: 100px;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+.navbar-toggler-icon {
+    background-color: #274C5B !important;
+}
+.nav-link {
+    color: #274C5B;
+    font-size: 18px;
+    font-weight: 700;
+}
+.form-control {
+    border-radius: 36px;
+    width: 200px;
+    height: 40px;
+}
+.btn {
+    border-radius: 50%;
+    background-color: #7EB693;
+}
+.btn2 {
+    border-radius: 50%;
+    background-color: #274C5B;
+}
+.ma-form-control2 {
+    border-radius: 36px;
+    width: 80px;
+    height: 40px;
+}
+/* ///////////////////////// Hero \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+.hero {
+    background-image: url("../img/Group\ 53.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: calc(100vh - 100px);
+}
+.hero h1 {
+    color: #274C5B;
+    font-family: Roboto;
+    font-size: 70px;
+    font-weight: 900;
+}
+/* //////////////////////////// (SHOP.HTML)  MAIN \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+.main-1{
+    margin-top: 130px;
+}
+.background{
+    background-color: #274C5B;
+    height: 30px;
+    font-size: 12px;
+    font-weight: 600;
+    border-radius: 8px;
+}
+.card{
+    width: 17.8125rem;
+    background-color: #F9F8F8;
+    border-radius: 0.625rem !important;
+}
+.card img{
+    width: 15.0625rem;
+    height: 12.8125rem;
+}
+.h5-image{
+    color: #274C5B;
+}
+.card-body{
+    background-color: #F9F8F8;
+    border-bottom-left-radius: 0.625rem;
+    border-bottom-right-radius: 0.625rem;
+    height: 27px;
+}
+.card-text{
+    color: #274C5B;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+}
+.del{
+    color: #B8B8B8;
+    font-weight: 600;
+    font-size: 14px;
+}
+.star{
+    font-size: 14px;
+}
+@media screen and (max-width:992px) {
+    .background{
+        font-size: 10px;
+    }
+    .card-title{
+        font-size: 14px;
+    }
+    .card-group{
+        flex-direction: column;
+    }
+}
